@@ -125,7 +125,4 @@ class AdminController extends Controller
         session()->regenerateToken();
         return redirect()->route('admin.login');
     }
-    public function hello(){
-        return redirect()->route('admin.dashboard');
-    }
 }
